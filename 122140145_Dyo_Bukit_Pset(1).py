@@ -1,9 +1,9 @@
-height = int(input("Input Height: "))
+tinggi = int(input("Masukan tinggi segitiga : "))
 
-much_spaces = height-1
-much_stars = 1
+spasi = tinggi - 1
+bintang = 1
 
-for i in range(height):
-    print(f"{' ' * much_spaces}{'*' * much_stars}")
-    much_spaces -= 1
-    much_stars += 2
+for i in range (tinggi) : 
+    print(f"{' ' * spasi} {'*' * bintang}")
+    spasi -= 1
+    bintang += 2
